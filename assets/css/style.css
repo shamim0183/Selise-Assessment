@@ -1,0 +1,271 @@
+/* Font Family 
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+
+/* COMMON CSS */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #0D324F;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #0D324F;
+}
+
+
+/* HEADER SECTION */
+.bg-custome{
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(14, 143, 178, 0.04);
+    backdrop-filter: blur(16px);
+}
+#navbarNavDropdown {
+    justify-content: center;
+    color: #0066B2;
+}
+
+a.nav-link {
+    margin-left: 30px;
+    color: #0066B2 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+a.nav-link span {
+    margin-left: 10px;
+}
+.world-icon span{
+    margin-left: 10px;
+    color: #0066B2
+}
+
+.sing-in-btn{
+    color: #0066B2 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 20px
+}
+.sing-up-btn{
+    color: #0066B2 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: 1px solid #0066B2;
+}
+
+
+
+/* MAIN HEAD SECTION */
+.selise_app{
+    background: url(/assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 464px;
+    margin-bottom: 56px;
+}
+h1.head-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #0066B2;
+    margin-bottom: 24px;
+}
+h2.head-content{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 24px;
+    letter-spacing: .02em;
+    color: #0D324F;
+}
+.content-center h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #0D324F;
+    margin-bottom: 43px;
+}
+.sign-up-bg-btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 11px 24px;
+    border-radius: 4px;
+    background-color: #0066B2;
+    color: #ffffff;
+    text-align: center;
+}
+.fill-btn{
+    margin-bottom: 20px;
+}
+.content-center p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #0D324F;
+    line-height: 1.4;
+    
+}
+
+/* TITLE SECTION */
+.title_section{
+    margin-bottom: 56px;
+}
+.title_section h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #0D324F;
+  
+}
+.title_section p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #0D324F;
+    line-height: 1.4;
+    max-width: 946px;
+    margin: 0 auto;
+  
+}
+
+/* GRID SECTION */
+section.card-items {
+    margin-bottom: 72px;
+}
+.card-item-grid .card-item{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11px #EAF0F6;
+    border-radius: 4px;
+}
+.title{
+    font-family: 'Oswald', sans-serif;
+    color: #0D324F;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+.content p{
+    font-size: 14px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #B6BDC2;
+}
+.card-item-grid .card-item .card-item-content{
+    padding: 32px;
+}
+.feature h3{
+    font-size: 18px;
+    margin: 24px 0 16px 0;
+}
+.feature ul {
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.feature ul li span {
+    color: #0066B2;
+    margin-right: 5px;
+}
+.feature ul li  {
+   white-space: nowrap;
+   margin-bottom: 10px;
+}
+.card-item-grid {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-gap: 24px;
+}
+
+
+/* ELECTRONIC SIGNATURE SECTION */
+.electronic-section {
+    background: #E7F2FA;
+    padding: 72px;
+}
+.electronic-content h4{
+    font-size: 24px;
+    letter-spacing: .02em;
+    color: #0066B2;
+    margin-bottom: 16px;
+}
+.electronic-content h5{
+    font-size: 34px;
+    letter-spacing: .02em;
+    color: #0D324F;
+    margin-bottom: 32px;
+}
+.electronic-content p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #0D324F;
+    margin-bottom: 20px;
+}
+.electronic-content .feature{
+    margin-bottom: 48px;
+}
+.electronic-content .feature ul li{
+    white-space: inherit;
+}
+
+
+
+
+/* FOOTER SECTION */
+.footer-section{
+    background-color: #4F5C66;
+}
+.selise_footer_wrapper {
+    padding: 72px 0;
+}
+h1.footer-content-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #ffffff;
+}
+.footer_content ul>li>a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.2;
+    
+}
+.footer_content ul>li{
+    margin-bottom: 12px;
+    
+}
+.footer_content .site_logo{
+    margin-bottom: 37px;
+    
+}
