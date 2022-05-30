@@ -211,6 +211,7 @@ section.card-items {
 .electronic-section {
     background: #E7F2FA;
     padding: 72px;
+    margin-bottom: 72px;
 }
 .electronic-content h4{
     font-size: 24px;
@@ -237,8 +238,67 @@ section.card-items {
     white-space: inherit;
 }
 
+/* SELISE APP SECTION */
+.selise_app_wrapper h1 {
+    margin-bottom: 64px;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.card-list h3 {
+    font-size: 24px;
+    line-height: 1.4;
+}
+.icon {
+    margin-bottom: 24px;
+}
+.card-list p {
+    letter-spacing: .5px;
+    color: #4F5C66;
+    margin-bottom: 16px;
+}
+.digital_btn .learn_more_btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #0066B2;
+}
+.selise_app_section {
+    padding-bottom: 72px;
+}
 
-
+/* SELISE DIGITAL SECTION */
+.selise_digital_section{
+    background: #E7F2FA;
+    padding: 72px;
+    min-height: 630px;
+}
+.selise_digital_section_wrapper p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+.selise_digital_section_wrapper h1 {
+    text-align: center;
+    font-size: 34px;
+    line-height: 1.4;
+    margin-bottom: 34px;
+}
+.learn_more_btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #0D324F;
+    text-align: center;
+    font-weight: 600;
+}
+.digital_btn {
+    text-align: center;
+}
+.card-icons {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 /* FOOTER SECTION */
 .footer-section{
@@ -268,4 +328,10 @@ h1.footer-content-title {
 .footer_content .site_logo{
     margin-bottom: 37px;
     
+}
+.footer-icon{
+    flex-direction: row;
+}
+.social{
+    margin-left: 20px;
 }
